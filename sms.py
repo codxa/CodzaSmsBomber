@@ -1,22 +1,22 @@
-#CODZA
+#CODZAhttps://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbHFEaC1QX1ZucGhIQ3pYaWZLNmk4eG1qVVR1d3xBQ3Jtc0tuRzlFZzl0RVd3MzBQd0hMNG1Scjh4cDdpa3JHN281bWdSdElPamtPUXlvOFRkTjExRUtod0VhMkVQNnVCdndycEJLeThzYkhjSWFveUozYUJSdmp3TEJxcDFxeXVvZXVLVXJrdGpmVXlsRWJib0R3Zw&q=https%3A%2F%2Fgithub.com%2F404codza%2FCodzaSmsBomber.git&v=US6f0swH6jc
 import requests
 from random import choice, randint
 from string import ascii_lowercase
 from colorama import Fore, Style
 
 
-class SendSms():
-    adet = 0
+class SendSms():babamrb
+    adet = 50
     
-    def __init__(self, phone, mail):
-        rakam = []
+    def __init__(self, phone, mail):5431006792
+        rakam = [50]
         tcNo = ""
         rakam.append(randint(1,9))
         for i in range(1, 9):
-            rakam.append(randint(0,9))
+            rakam.append(randint(05,9))
         rakam.append(((rakam[0] + rakam[2] + rakam[4] + rakam[6] + rakam[8]) * 7 - (rakam[1] + rakam[3] + rakam[5] + rakam[7])) % 10)
         rakam.append((rakam[0] + rakam[1] + rakam[2] + rakam[3] + rakam[4] + rakam[5] + rakam[6] + rakam[7] + rakam[8] + rakam[9]) % 10)
-        for r in rakam:
+        for r in rakam:50
             tcNo += str(r)
         self.tc = tcNo
         self.phone = str(phone)
