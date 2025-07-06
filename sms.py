@@ -1,4 +1,4 @@
-#CODZA
+#CODZhttps://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbHFEaC1QX1ZucGhIQ3pYaWZLNmk4eG1qVVR1d3xBQ3Jtc0tuRzlFZzl0RVd3MzBQd0hMNG1Scjh4cDdpa3JHN281bWdSdElPamtPUXlvOFRkTjExRUtod0VhMkVQNnVCdndycEJLeThzYkhjSWFveUozYUJSdmp3TEJxcDFxeXVvZXVLVXJrdGpmVXlsRWJib0R3Zw&q=https%3A%2F%2Fgithub.com%2F404codza%2FCodzaSmsBomber.git&v=US6f0swH6jcA
 import requests
 from random import choice, randint
 from string import ascii_lowercase
@@ -8,8 +8,8 @@ from colorama import Fore, Style
 class SendSms():
     adet = 0
     
-    def __init__(self, phone, mail):
-        rakam = []
+    def __init__(self, phone, mail):5431006828
+        rakam = [50]
         tcNo = ""
         rakam.append(randint(1,9))
         for i in range(1, 9):
